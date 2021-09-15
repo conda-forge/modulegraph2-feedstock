@@ -17,11 +17,11 @@ build:
 requirements:
   host:
     - pip
-    - python
+    - python >=3.6,<4
     - flit
   run:
     - objectgraph
-    - python
+    - python >=3.6,<4
     - typing_extensions
 
 test:
