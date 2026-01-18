@@ -20,7 +20,7 @@ requirements:
     - python {{ python_min }}
     - flit
   run:
-    - objectgraph
+    - objectgraph >=1.0.5
     - python >={{ python_min }},<4
     - typing_extensions
 
